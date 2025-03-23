@@ -1,0 +1,45 @@
+p:hover{
+   color:rgb(76, 0, 255);
+   font-size: 30px;
+}
+
+.standout{
+    color:rgb(216, 159, 3);
+}
+
+.image1{
+    border-radius: 80%;
+    opacity: 0.7;
+}
+
+.image2{
+    border-radius: 30px;
+}
+
+.image3{
+    opacity: 0.2;
+}
+
+.image4:hover{
+    filter: grayscale(80%);
+    border-radius: 30px;
+}
+
+.image5{
+    filter: blur(4px);
+}
+
+.flip{
+    padding: 15px;  
+        text-align: center;  
+        background-color: #e9d4d4bf;  
+        border: solid 0.5px #47221E; 
+}
+
+body {  
+    font-size: 18px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;  /*font style */
+    background-color: #efeee8; /* background */  
+    width: 100%;  
+    margin: 10 auto;
+}  

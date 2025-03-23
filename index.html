@@ -1,0 +1,173 @@
+<html lang="en">
+<head>
+<title>Personal Website.com</title>
+<link rel="stylesheet", href="style.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>  
+<script>
+
+ /* function about clicking the flip and panel */
+$(function(){  
+    $("#flip").click(function(){  
+        $("#panel").slideToggle("slow");  
+    });  
+});  
+
+</script>  
+</head>
+<style>
+	    /* Define the style of body */
+	    body {  
+			font-size: 18px; 
+			font-family: Georgia, 'Times New Roman', Times, serif;  /*font style */
+            background-color: #f0ecdb; /* background */  
+			width: 100%;  
+            margin: 10 auto;
+        }  
+ 
+		/*  #header  equal to which is based on the header */
+		#header {  
+            height: 900px;  
+            background: url(images/Homepage.png) ;  /* header posters which is made by illuatrate AI */
+			background-size: cover;   
+			background-color:#522e2e;
+        }  
+
+
+        #content {  
+			height: 1120px;  
+			padding: 15px;
+			/* Semi-transparent background */
+			background: rgba(203, 164, 158, 0.25); 
+			/* border-radius: 10px;   Rectangular rounded corners */
+			border: solid 0.5px #47221E; 
+        }   
+		
+		/* Responsive layout - makes the two columnsstack on top of each other instead of side by side when viewing on mobile */
+        @media (max-width: 1200px) {
+            body, content {
+            width: 100%;
+            height: auto;
+         }
+        }
+
+        /* min-width example*/
+        @media (min-width: 1200px) {
+            body, content {
+            background-color: #e6e6e6;
+	        color: #602726b9;
+         }
+        }
+
+		/* the flip and panel style */
+        #panel, #flip {  
+        padding: 15px;  
+        text-align: center;  
+        background-color: #e9d4d4bf;  
+        border: solid 0.5px #47221E;  
+        }  
+  
+        #panel {  
+        padding: 100px;  
+        display:none;  
+        }  
+
+</style>
+
+<body>
+<!-- Top click flip -->
+<div id="flip"> <h1 > 24439622 JINLianyi </h1>  </div>  
+    <div id="panel">
+	<h1>Enjoy every day !!!</h1>
+    <h1>Specific information about my introduction<br><br>
+		Introduction:<br><br>
+		Name:JINLianyi<br><br>
+		Student Number:24439622<br><br>
+		School of Communication<br><br>
+		Major:AI and Digital Meadia<br></h1>
+    </div>     
+
+
+<div id="main">
+<!-- BM LOGO -->
+	<div id="header">
+		<!--<div class="row-1" style="padding-top: 160px;">
+			<div class="indent"><img alt="" src="images/logo.png" /></div>
+		</div>-->
+	</div>
+
+<!-- content -->
+<div id="content" >
+
+<!-- set the content style -->	
+<div style="width: 100%; overflow: hidden; margin-bottom: 30px;"> 
+ 
+<!-- The first image -->  <!-- click image  to the link and set the image size and style-->
+<a href="images/dog2.jpg"> <img src="images/dog.jpg"  style="float: left; width: 180px; height: auto; margin-right: 20px; border-radius: 5px;"> </a>  
+	
+	<!-- context -->  
+	<div>  
+		<h1 style="color: #651281">My favourite dog</h1>  
+		<h2 style="color: rgb(74, 31, 30)"> Name: Tang Yuan</h2>  
+		<h2>  
+			Age: 3 <br>  
+			Nickname: Little Old Man<br>  
+			Timid, well-behaved in everyday life<br>  
+			Shooting location: Park
+		</h2>  
+		<a href="https://zh.wikipedia.org/zh-cn/%E9%9B%AA%E7%B4%8D%E7%91%9E#%E7%AE%80%E4%BB%8B"><h2>Read more about my clever dog</h2></a>  <!-- click the text and link to the details --> 
+	</div>  
+</div>  
+
+<div style="width: 100%; overflow: hidden; margin-bottom: 30px;">  
+
+<!-- The second image --> <!-- click image  to the link and set the image size and style--> 
+<a href="images/boyfriend_picture.jpg" ><img  src="images/Boyfriend.jpg" style="float: left; width: 180px; height: 255px; margin-right: 20px; border-radius: 5px;"></a>	
+    
+    <!-- context -->  
+	<div>  
+		<h1 style="color: #A52D2B">My Boyfriend</h1> 
+		<h2 style="color: rgb(74, 31, 30)">Name:Jackson</h2>
+        <h2>
+			Age: 23 <br>
+			Personality: i human, introverted<br> 
+			Hobby: Sleeping<br>
+			Shooting location: The Disney Theme Park
+		 </h2>
+		<a href="images/boyfriend_picture.jpg" ><h2>Read more about the handsome boy</h2> </a> <!-- click the text and link to the details --> 
+    </div>  
+</div>  
+
+
+<div style="width: 100%; overflow: hidden; margin-bottom: 30px;">  
+
+<!-- The third image --> <!-- click image  to the link and set the image size and style--> 
+<a href="images/device.jpg" ><img  src="images/device2.jpg" style="float: left; width: 180px; height: 280px; margin-right: 20px; border-radius: 5px;"></a>
+
+    <!-- context -->  
+	<div>  
+		<br>
+		<h1 style="color: #A52D2B">My interactive installation work</h1> 
+		<h2 style="color: rgb(74, 31, 30)">Title:Redemption in Darkness</h2>
+        <h2>
+			The theme of the project is psychosomatic disorders <br>
+			Software:TouchDesigner, AE<br>
+            Hardware: Curtains, projectors, hoses <br> 
+			Shooting location: School
+		 </h2>
+		 <a href="images/device.jpg" ><h2>Read more about the interactive installation work</h2>  </a> <!-- click the text and link to the details -->  
+    </div>  	 
+</div>  
+
+
+<!-- the footer - Link to the official website -->
+    <div id="footer">
+	   <div>
+		<br>
+		<h2>Visit HKBU <a href="https://www.hkbu.edu.hk/">  <span style="color: #A52D2B ">https://www.hkbu.edu.hk/</span> </a></h2>
+		<h2>Go to <a href="Homepage.html">Homepage</a></h2>
+	   </div>
+    </div>
+
+</div>
+</body>
+</html> 
